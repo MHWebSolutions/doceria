@@ -1,0 +1,53 @@
+.flex-main{
+    display: flex;
+    overflow: hidden;  
+}
+
+.logo_img{
+    width: 70px;
+    height: 70px;
+}
+
+.div1{
+    background-image:var(--primary-color) ;
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: var(--primary-white);
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    font-size: 2rem;
+
+}
+
+.div2{
+    width: 75%;
+    position: relative;
+    left: 25%;
+}
+
+.div2 .div3{
+    height: 100vh;
+    font-size: 1.6rem;
+    font-family: "Roboto Slab", serif;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+}
+

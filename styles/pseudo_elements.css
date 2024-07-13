@@ -1,0 +1,9 @@
+:root{
+    --primary-color: linear-gradient(to bottom,#213c4a ,#091217);
+    --primary-font-color: #111b21;
+    --primary-white: #FFFFFF;
+}
+
+ul li:hover{
+    background: rgba(0, 0, 0, 0.4);
+}
