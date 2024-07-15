@@ -67,10 +67,6 @@
     height: 70vh;
 }
 
-#Four{
-    height: calc(100vh * 2);
-}
-
 .flex-text{
     display: flex;
     margin: 4rem;
@@ -88,3 +84,9 @@
     margin-left: 1rem;
 }
 
+#Four{
+    height: calc(100vh * 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}

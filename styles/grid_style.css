@@ -1,0 +1,39 @@
+.parts{
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid1{
+    display: grid;
+    width: 90%;
+    height: 25vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+
+.grid2{
+    display: grid;
+    width: 75%;
+    height: 25vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+
+.grid3{
+    display: grid;
+    width: 95%;
+    height: 25vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+
+.bruh{
+    background-image: url('/assets/banner.jpeg');
+    background-size: cover;
+}
